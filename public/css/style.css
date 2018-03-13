@@ -6711,4 +6711,37 @@ hr {
 .phone svg {
   transform: rotate(95deg); }
 
+#footer {
+  background-image: url("../../public/images/footer_background.jpg"); }
+  #footer .footer-decoration {
+    background-image: url("../../public/images/footer_bottom_decoration_img.png");
+    margin-bottom: 30px; }
+  #footer h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+
+.tags a {
+  padding: 5px 15px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-right: 2px; }
+
+.media {
+  padding: 0;
+  list-style: none; }
+  .media a {
+    color: white; }
+  .media li {
+    margin-right: 25px;
+    display: inline-block; }
+    .media li svg {
+      font-size: 25px; }
+
+.red-box {
+  display: block;
+  background-color: #c22d3e;
+  height: 100px;
+  width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
