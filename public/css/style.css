@@ -6673,4 +6673,23 @@ hr {
     .blog-col .infos .img-infos p span {
       font-size: 25px; }
 
+#testimonial {
+  background-image: url("../../public/images/testimonials_background.jpg"); }
+
+.title-testimonial {
+  margin-bottom: 100px; }
+
+.img-testimonial {
+  border: 5px solid #d1cece; }
+
+.text-testimonial {
+  border-radius: 20px;
+  padding: 10px; }
+  .text-testimonial h6 {
+    font-size: 16px;
+    color: #c22d3e; }
+  .text-testimonial h4,
+  .text-testimonial p {
+    color: white; }
+
 /*# sourceMappingURL=style.css.map */
