@@ -91,7 +91,7 @@
 
   <!-- section MENU -->
   <section id="menu">
-    <div class="container my-5">
+    <div class="container my-5 border">
       <img src="../public/images/box-left-top.png" alt="" class="box-left-top">
       <img src="../public/images/box-right-top.png" alt="" class="box-right-top">
       <img src="../public/images/box-bottom-left.png" alt="" class="box-bottom-left">
@@ -303,19 +303,19 @@
       <img src="../public/images/decoration_line.png" class="decoration-title" alt="">
       <div class="row mt-5 text-light font-weight-bold">
         <div class="col-3 text-center">
-          <img src="../public/images/chef1.png" alt="" class="img-fluid border-bottom">
+          <img src="../public/images/chef1.png" alt="" class="img-fluid border-bottom border-secondary">
           <p>Lorem Ipsum</p>
         </div>
         <div class="col-3 text-center">
-          <img src="../public/images/chef2.png" alt="" class="img-fluid border-bottom">
+          <img src="../public/images/chef2.png" alt="" class="img-fluid border-bottom border-secondary">
           <p>Lorem Ipsum</p>
         </div>
         <div class="col-3 text-center">
-          <img src="../public/images/chef3.png" alt="" class="img-fluid border-bottom">
+          <img src="../public/images/chef3.png" alt="" class="img-fluid border-bottom border-secondary">
           <p>Lorem Ipsum</p>
         </div>
         <div class="col-3 text-center">
-          <img src="../public/images/chef4.png" alt="" class="img-fluid border-bottom">
+          <img src="../public/images/chef4.png" alt="" class="img-fluid border-bottom border-secondary">
           <p>Lorem Ipsum</p>
         </div>
       </div>
@@ -325,11 +325,77 @@
 
   <!-- Section BOOKING / BLOG -->
   <section id="booking">
-    <div class="container my-5">
+    <div class="container bg-container my-5 border">
       <img src="../public/images/box-left-top-grey.png" alt="" class="box-left-top">
       <img src="../public/images/box-right-top-grey.png" alt="" class="box-right-top">
       <img src="../public/images/box-bottom-left-grey.png" alt="" class="box-bottom-left">
       <img src="../public/images/box-bottom_right-grey.png" alt="" class="box-bottom-right">
+
+      <div class="booking-table text-center">
+        <div class="booking-title py-5">
+          <h1 class="title-div">
+            <span class="text-uppercase text-danger pr-2">Book</span> Your Table</h1>
+          <img src="../public/images/decoration_line.png" class="decoration-title" alt="">
+        </div>
+        <div class="container padding-booking">
+          <div class="form-booking">
+            <p class="text-light pt-5 pb-4">For any query please call us at :
+              <span class="font-weight-bold"> +91-1234567890</span>
+            </p>
+            <form>
+              <div class="form-row">
+                <div class="container mx-5">
+                  <div class="col-12">
+                    <div class="row py-1">
+                      <div class="col-6">
+                        <input type="text" class="form-control padding-input" placeholder="Enter Full Name">
+                      </div>
+                      <div class="col-6">
+                        <input type="text" class="form-control padding-input" placeholder="Enter Id">
+                      </div>
+                    </div>
+                    <div class="row py-1">
+                      <div class="col-6">
+                        <input type="text" class="form-control padding-input" placeholder="Phone Number">
+                      </div>
+                      <div class="col-6">
+                        <select id="inputState" class="form-control">
+                          <option selected>No Of Person</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row py-1">
+                      <div class="col-6">
+                        <input type="text" class="form-control padding-input" placeholder="Date">
+                      </div>
+                      <div class="col-6">
+                        <input type="text" class="form-control padding-input" placeholder="Time">
+                      </div>
+                    </div>
+                    <div class="row py-1">
+                      <div class="col-6">
+                        <select id="inputState" class="form-control">
+                          <option selected>Occasion</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="col-6">
+                        <select id="inputState" class="form-control">
+                          <option selected>Cuisine</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <button type="button" class="btn btn-danger text-uppercase my-5">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     </div>
   </section>
