@@ -10,19 +10,30 @@ body
   background-image: url("../../public/images/banner1.jpg")
   background-size: 100%
   background-position-x: center
+  position: relative
   
   
 
   &::before
     background-color: rgba(0, 0, 0, 0.8)
-    content: "" !important
-    min-width: 100% !important
+    content: "" 
     background-size: 100%
-    height: 832px
-    left: 0 !important
-    top: 0 !important
-    display: block !important
-    position: absolute !important
+    left: 0
+    top: 0
+    bottom: 0
+    right: 0
+    display: block 
+    position: absolute
+
+  &::after
+    content: ""
+    display: block
+    position: absolute
+    background-image: url("../../public/images/bottom_decoration_img.png")
+    height: 14px
+    bottom: 0
+    left: 0
+    right: 0
     
 
 .content-header
@@ -65,11 +76,4 @@ body
     height: 25px
     width: 25px
     background-color: $secondary
-
-hr
-  display: block
-  position: relative
-  background-image: url("../../public/images/bottom_decoration_img.png")
-  height: 14px
-  margin: -14px 0 0 0
-  border: none
+  
